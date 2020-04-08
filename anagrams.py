@@ -12,12 +12,12 @@ import sys
 
 # Your name here, and any other people/sources who helped.
 # Give credit where credit is due.
-__author__ = "???"
+__author__ = "Andrew Belanger"
 
 
 def alphabetize(string):
     """Returns alphabetized version of the string"""
-    return "".join(sorted(string.lower()))
+    return "".join(sorted(str(string)))
 
 
 def find_anagrams(words):
